@@ -9,6 +9,7 @@ import { FoodsignupComponent } from './foodsignup/foodsignup.component';
 import { FoodNorthComponent } from './food-north/food-north.component';
 import { FoodSouthComponent } from './food-south/food-south.component';
 import { RouterModule, Routes } from '@angular/router';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 const myRoute:Routes=[
   {
     path:"",
@@ -39,7 +40,8 @@ const myRoute:Routes=[
     FoodLoginComponent,
     FoodsignupComponent,
     FoodNorthComponent,
-    FoodSouthComponent
+    FoodSouthComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
