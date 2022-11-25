@@ -7,6 +7,7 @@ import { FoodHomeComponent } from './food-home/food-home.component';
 import { FoodLoginComponent } from './food-login/food-login.component';
 import { FoodsignupComponent } from './foodsignup/foodsignup.component';
 import { FoodNorthComponent } from './food-north/food-north.component';
+import { FoodSouthComponent } from './food-south/food-south.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FoodNorthComponent } from './food-north/food-north.component';
     FoodHomeComponent,
     FoodLoginComponent,
     FoodsignupComponent,
-    FoodNorthComponent
+    FoodNorthComponent,
+    FoodSouthComponent
   ],
   imports: [
     BrowserModule,
