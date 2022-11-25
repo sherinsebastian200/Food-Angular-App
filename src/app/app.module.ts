@@ -8,6 +8,29 @@ import { FoodLoginComponent } from './food-login/food-login.component';
 import { FoodsignupComponent } from './foodsignup/foodsignup.component';
 import { FoodNorthComponent } from './food-north/food-north.component';
 import { FoodSouthComponent } from './food-south/food-south.component';
+import { RouterModule, Routes } from '@angular/router';
+const myRoute:Routes=[
+  {
+    path:"",
+    component:FoodHomeComponent
+  },
+  {
+    path:"login",
+    component:FoodLoginComponent
+  },
+  {
+    path:"signup",
+    component:FoodsignupComponent
+  },
+  {
+    path:"north",
+    component:FoodNorthComponent
+  },
+  {
+    path:"south",
+    component:FoodSouthComponent
+  }
+]
 
 @NgModule({
   declarations: [
@@ -20,7 +43,8 @@ import { FoodSouthComponent } from './food-south/food-south.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(myRoute)
   ],
   providers: [],
   bootstrap: [AppComponent]
