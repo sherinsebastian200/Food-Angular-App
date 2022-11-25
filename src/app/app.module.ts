@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FoodHomeComponent } from './food-home/food-home.component';
 import { FoodLoginComponent } from './food-login/food-login.component';
+import { FoodsignupComponent } from './foodsignup/foodsignup.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FoodHomeComponent,
-    FoodLoginComponent
+    FoodLoginComponent,
+    FoodsignupComponent
   ],
   imports: [
     BrowserModule,
