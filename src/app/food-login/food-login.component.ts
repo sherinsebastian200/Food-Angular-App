@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./food-login.component.css']
 })
 export class FoodLoginComponent {
+  name=""
+  password=""
+
+  foodLog=()=>
+  {
+    let data:any={"name":this.name,"password":this.password}
+    console.log(data)
+
+    
+  }
+
 
 }
